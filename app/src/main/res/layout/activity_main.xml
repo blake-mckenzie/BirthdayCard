@@ -7,6 +7,15 @@ android:layout_height="match_parent"
 
 tools:context=".MainActivity">
 
+
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/androidparty" />
+
+
     <TextView
     android:id="@+id/HappyBirthday_textview"
     android:layout_width="wrap_content"
@@ -31,11 +40,7 @@ tools:context=".MainActivity">
     android:fontFamily="sans-serif-condensed-light"
     android:textColor="@android:color/white"/>
 
-    <ImageView
-        android:id="@+id/background_image"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/androidparty" />
+
 
 
 </RelativeLayout>
