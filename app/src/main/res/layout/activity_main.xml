@@ -1,15 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
 
-    tools:context=".MainActivity">
+tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/HappyBirthday_textview"
-        android:layout_width="wrap_content"
+    android:id="@+id/HappyBirthday_textview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Happy Birthday Andrew"
+    android:textSize="36sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textColor="@android:color/white"/>
+
+
+
+
+
+    '<TextView
+    android:id="@+id/from_textview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="From Dad"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom= "true"
+    android:textSize="36sp"
+    android:fontFamily="sans-serif-condensed-light"
+    android:textColor="@android:color/white"/>
+
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Happy Birthday Andrew" />
+        android:src="@drawable/androidparty" />
+
+
 </RelativeLayout>
